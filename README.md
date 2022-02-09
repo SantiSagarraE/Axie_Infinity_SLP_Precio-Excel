@@ -13,4 +13,6 @@ Dentro del directorio del proyecto ejecutar en la terminal:
 
 
 Lo que hace es guardar el precio del SLP en un archivo de texto llamado SLPdata.csv
+
+
 Luego correr el programa 'SLPexcel.py' lo que genera el archivo excel con el precio del SLP.
