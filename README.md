@@ -11,11 +11,15 @@ Primero debemos crear un proyecto Scrapy:
 
 Dentro de una terminal (cmd en Windows) nos dirigimos hacia donde queremos guardar el proyecto y ejecutamos lo siguiente:
 
--->Scrapy startproject NOMBRE_PROYECTO
+-->Scrapy startproject SLP_data
 
 Dentro de la carpeta del proyecto pegamos el programa:
 
 -->SLPexcel.py
+
+Luego, entramos a la carpeta SLP_data y pegamos/reemplazamos los programas:
+
+--> settings.py y exporters.py
 
 Luego nos dirigimos a la carpeta 'Spiders' dentro del proyecto creado y pegamos el programa:
 
