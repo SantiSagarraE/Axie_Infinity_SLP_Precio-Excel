@@ -2,6 +2,7 @@
 Programa enfocado a jugadores de Axie infinity para llevar a cabo una base de datos en excel sobre el SLP y su precio diariamente.
 
 Para su correcto funcionamiento se debe tener instalado:
+
 -Python y los paquetes Scrapy y Openpyxl
 
 Como correr el programa:
