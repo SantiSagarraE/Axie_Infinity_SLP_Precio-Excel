@@ -3,7 +3,7 @@ Programa enfocado a jugadores de Axie infinity para llevar a cabo una base de da
 
 Para su correcto funcionamiento se debe tener instalado:
 
--Python y los paquetes Scrapy y Openpyxl
+-->Python y los paquetes Scrapy y Openpyxl
 
 Como correr el programa:
 
