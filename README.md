@@ -7,13 +7,24 @@ Para su correcto funcionamiento se debe tener instalado:
 
 Como correr el programa:
 
-Dentro del directorio del proyecto ejecutar en la terminal:
+Primero debemos crear un proyecto Scrapy:
 
+Dentro de una terminal (cmd en Windows) nos dirigimos hacia donde queremos guardar el proyecto y ejecutamos lo siguiente:
+
+-->Scrapy startproject NOMBRE_PROYECTO
+
+Dentro de la carpeta del proyecto pegamos el programa:
+
+-->SLPexcel.py
+
+Luego nos dirigimos a la carpeta 'Spiders' dentro del proyecto creado y pegamos el programa:
+
+-->SLP.py
+
+A continuacion, abrimos una terminal, nos dirigimos al directorio del proyecto y ejecutamos:
 
 -->Scrapy crawl SLPdata -o SLPdata.csv 
 
-
 Lo que hace es guardar el precio del SLP en un archivo de texto llamado SLPdata.csv
 
-
-Luego correr el programa 'SLPexcel.py' lo que genera el archivo excel con el precio del SLP.
+Finalmente correr el programa 'SLPexcel.py' lo que genera el archivo excel con el precio del SLP.
